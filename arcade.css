@@ -1,0 +1,188 @@
+/*-----select----*/
+.select{
+    height: 100vh;
+    position: relative;
+}
+
+.bkground{
+    height: 2400vh;
+}
+/*--------------pplbutton------------------------*/
+
+.homepagestuck{
+    
+}
+
+.arcadenametop1{
+    position: absolute;
+    right: 8%;
+    direction: rtl;
+}
+
+.arcadenametop1 h1{
+    color: white;
+    text-align: end;
+    
+}
+
+.arcadenametop2 h1{
+    color: white;
+}
+
+.arcadenametop2{
+    position: absolute;
+    bottom: 20vh;
+    left: 8%;
+}
+
+.maimaiicon {
+    transform-origin: top;
+    display: block;
+    z-index: 502;
+    position: absolute;
+    left: 8%;
+}
+
+.taikoicon {
+    transform-origin: top;
+    display: block;
+    z-index: 502;
+    position: absolute;
+    left: 28%;
+}
+
+.ddricon {
+    transform-origin: bottom;
+    display: block;
+    z-index: 502;
+    position: absolute;
+    bottom: 15vh;
+    left: 45%;
+}
+
+
+.iidxicon {
+    transform-origin: bottom;
+
+    z-index: 502;
+    position: absolute;
+    bottom: 15vh;
+        left: 62%;
+    opacity: 100;
+}
+
+.sdvxicon {
+    transform-origin: bottom;
+
+    z-index: 502;
+    position: absolute;
+    bottom: 15vh;
+    opacity: 100;
+}
+
+/*--------------buttonname------------------------*/
+/*--"#00D7F6"-----*/
+.buttons2 a{
+    text-decoration: none;
+}
+
+.buttons1 a{
+    text-decoration: none;
+}
+
+/*-----sticky----*/
+.stickylogotype {
+    top: 3.5vh;
+}
+
+/*-----basics----*/
+
+.arcadegif{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.fluidminus{
+    padding-left: 2vw!important;
+    z-index: 2!important;
+    position: relative;
+}
+
+.arcadename h1{
+    font-size: 60px;
+}
+
+/*-----maimai----*/
+
+.maima4u{
+    position: relative;
+    z-index: 3 ;
+    top: -10vh;
+}
+
+.maimai1 {
+    position: relative;    
+    /*-----height: 50vh !important;----*/
+    overflow: hidden;
+    
+}
+
+.maimai2{
+    position: relative; 
+    padding: 0;
+}
+
+.maimai2_pic{
+    position: relative;    
+    /*-----height: 50vh !important;----*/
+    overflow: hidden;
+}
+
+.maimai3{
+    position: relative;
+    z-index: 3 ;
+}
+
+.maimai4{
+    position: relative;
+    z-index: 3 ;
+}
+
+.maimai5{
+    position: relative;
+    z-index: 3 ;
+}
+
+.maimai6{
+    position: relative;
+    margin: 0 auto;
+    right: -8vw;
+}
+
+.textcover p{
+    border-radius: 0px!important;
+    padding-top: 5vh !important;
+}
+
+/*-----taiko----*/
+
+.taiko
+{
+    position: relative;
+    z-index: 3 ;
+    top: -20vh;
+}
+
+.ma4u2{
+    bottom: 0;
+    position: relative; 
+    max-height: 200vh;
+    height: 55vh;
+}
+
+/*-----ddr----*/
+
+/*-----iidx---*/
+
+/*-----sdvx---*/

@@ -1,0 +1,551 @@
+@font-face{
+    font-family: 'Dela Gothic One';
+    src: local("Dela Gothic One"),
+    url(DelaGothicOne-Regular.ttf);
+    font-family: 'Noto Sans TC';
+    src: local("Noto Sans TC"),
+    url(NotoSansTC-Regular.otf);
+}
+
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+
+
+.bkground {
+    background: #0E3EC5;
+   /*-- background-image: url(pics/smallsinbg.jpg);----*/
+    /*--background-image: url(pics/newbk2.png);--*/
+    background-size: contain;
+    overflow-x: hidden;
+    height: 500vh;
+}
+
+.header {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #22223A;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 60px;
+    color: #F60067;
+    animation-name: jilighth1;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+h2 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 60px!important;
+    color: #0E3EC5;
+    position: relative;
+    z-index: 600 !important;
+    animation-name: jilighth2;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+p {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: #22223A;
+    color: white;
+    border-radius: 20px !important;
+    margin: 0!important;
+    font-size: 1.1rem;
+}
+
+.introkuan p {
+    padding: 20px !important;
+}
+
+/*--------------loading----------------------------*/
+
+.loading{
+    position: fixed;
+    z-index: 999;
+    background: white;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.block{
+    display: block;
+    height: 35vh;
+}
+
+
+/*--------------pallaxbkgorund----------------------------*/
+
+.movebkground1{
+    top: 0;
+    width: 100%;
+    height: 220%;
+    position: fixed;
+}
+
+.spacing0{
+    width: 100vw;
+    height: 10vh;
+}
+
+.movebkground2{
+    top: 210%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground3{
+    top: 410%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground4{
+    top: 610%;
+    width: 100%;
+    height: 150%;
+    position: fixed;
+}
+
+
+/*--------------btn----------------------------*/
+
+.menu-btn {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: 3vh;
+    left: 27px;
+    z-index: 999 !important;
+    padding-top: 7px;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-btn span {
+
+    z-index: 999 !important;
+    width: 60%;
+    height: 3px;
+    background: #fff;
+    display: block;
+    margin: 9px auto;
+    transition: all 0.3s;
+}
+
+.menu-box {
+    z-index: 998 !important;
+    width: 160px;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: -120%;
+    padding-left: 40px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.menu-box a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    z-index: 998 !important;
+    color: #0E3EC5;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 2;
+    text-decoration: none;
+
+}
+
+.menu-box.active {
+    top: 0 !important;
+}
+
+.menu-btn.active span:first-child {
+    transform: rotate(45deg) translate(8px, 15px);
+    background: #0E3EC5;
+}
+
+.menu-btn.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-btn.active span:last-child {
+    transform: rotate(-45deg) translate(2px, -8px);
+    background: #0E3EC5;
+}
+
+.mb1:hover {
+    color: #648dff;
+}
+
+.mb2:hover {
+    color: #648dff;
+}
+
+.mb3:hover {
+    color: #648dff;
+}
+
+.mb4:hover {
+    color: #648dff;
+}
+
+.mb5:hover {
+    color: #648dff;
+}
+
+.mb6:hover {
+    color: #648dff;
+}
+
+/*--------------logo----------------------------*/
+
+.logo {
+    z-index: 999;
+    position: fixed;
+    top: 3vh;
+    left: 100px;
+    display: block;
+}
+
+.TOPMA4U {
+    z-index: 999;
+    position: fixed;
+    top: 3vh;
+    right: 33px;
+    display: block;
+}
+
+.backtotopyouchan {
+    z-index: 998;
+    position: fixed;
+    top: 15vh;
+    right: 33px;
+    display: block;
+}
+/*--------------firstpage----------------------------*/
+
+.heroimg {
+    z-index: 500;
+    margin: auto;
+    position: relative;
+    top: 22vh;
+    width: 70vw;
+    height: 50vh;
+    background-image: url(pics/homepagebg_big_2.jpg);
+    background-size: contain;
+    box-sizing: border-box;
+ /*-animation-name: herolight;
+    animation-duration: 2.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;--*/
+}
+
+/*----@keyframes herolight {
+
+    0% {
+       box-shadow:  0px 0px 3vw #FFF;
+    }
+
+    100% {
+       box-shadow:  0px 0px 5vw #FFF;
+    }
+}--*/
+
+.logotype {
+    display: block;
+    margin: 0 auto;
+    z-index: 501;
+    position: absolute;
+    top: 10vh;
+    left: 25%;
+    animation-name: jimove;
+    animation-duration: 2.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.floor {
+    display: block;
+    margin: 0 auto;
+    z-index: 501;
+    position: absolute;
+    top: 70vh;
+    left: 5%;
+}
+
+/*--------------logotypeanimation------------------------*/
+
+@keyframes jimove {
+
+    0% {
+        filter: brightness(1);
+        filter: contrast(2);
+        -webkit-filter: brightness(1);
+        -webkit-filter: contrast(2);
+
+        transform: translate(0, 0);
+    }
+
+    100% {
+        filter: brightness(1);
+        filter: contrast(1);
+        -webkit-filter: brightness(1);
+        -webkit-filter: contrast(1);
+        transform: translate(0, 2vh);
+    }
+}
+
+/*--------------pplbutton------------------------*/
+
+.door {
+    transform-origin: bottom;
+    display: block;
+    z-index: 502;
+    position: absolute;
+    bottom: 15vh;
+    left: 10%;
+}
+
+.arc {
+    transform-origin: bottom;
+    display: block;
+    z-index: 502;
+    position: absolute;
+    bottom: 15vh;
+    left: 24%;
+}
+
+.coin {
+    transform-origin: bottom;
+    display: block;
+    z-index: 502;
+    position: absolute;
+    bottom: 15vh;
+    left: 52%;
+}
+
+
+.interview {
+    transform-origin: bottom;
+
+    z-index: 502;
+    position: absolute;
+    bottom: 15vh;
+    left: 67%;
+    opacity: 100;
+}
+
+/*--------------pplbuttonanimation------------------------*/
+/*--------------???iruCheck------------------------*/
+
+.interview:hover img {
+    transform: scale((1.2, 1.2));
+}
+
+/*--------------blackbelt------------------------*/
+    .blackbelt {
+    top: 270vh;
+    position: absolute;
+    z-index: 0;
+    width: 60vw;
+    height: 200vh;
+    right: 0;
+    padding-bottom: 20vh;
+    background: #22223A;
+    border-top-left-radius: 30px;
+}
+
+/*--------------stickylogotype------------------------*/
+.stickylogotype {
+    z-index: 999;
+    position: sticky;
+    margin-top: 7vh;
+    left: 170px;
+    background-image: url(pics/logotype_c.png);
+    background-size: contain;
+    width: 225px;
+    height: 50px;
+    top: 3.5vh;
+}
+
+/*--------------intro------------------------*/
+/*--------------intro1--*/
+.comic1 {
+    position: relative;
+    z-index: 400;
+    max-width: 70vw;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    margin: 0 auto;
+}
+
+.intro {
+    position: relative;
+    z-index: 400;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.intro_1 {
+    z-index: 400;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    position: relative;
+}
+
+.text_1 {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+
+
+/*--------------intro2---*/
+
+.intro_2 {
+    z-index: 400;
+    top: -40vh;
+    height: 60vh;
+    position: relative;
+}
+
+.pics_2 {
+    position: relative;    
+    height: 80vh;
+}
+
+.ma4u{
+    bottom: 0;
+    position: relative; 
+    max-height: 120vh;
+    height: 40vh;
+}
+
+/*--------------intro3---*/
+
+.intro_3 {
+    height: 63vh;
+    top: -10vh;
+    z-index: 400;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pics_3 {
+    position: relative;    
+}
+
+
+.ma4u2{
+    bottom: 0;
+    position: relative; 
+    max-height: 200vh;
+    height: 60vh;
+}
+
+/*--------------intro4---*/ 
+
+.intro_4 {
+    border-top: 10vh;
+    z-index: 400;
+    position: relative;
+}
+
+.spacing{
+    width: 100vw;
+    height: 30vh;
+}
+
+/*-----
+test parallax
+
+.test {
+    height: 20vh;
+
+}-----*/
+
+.spacing0{
+    width: 100vw;
+    height: 10vh;
+}
+
+/*--------------nextpage---*/
+
+.nextpage{
+    z-index: 502;
+    text-align:right;　
+    position:relative;
+    padding-top: 5vh!important;
+    padding-bottom: 5vh!important;
+    /*--background: #22223A;--*/
+}
+
+.nextpageimg{
+    transform-origin: bottom;
+    display: block;
+    z-index: 502;
+    position: relative;
+}
+
+.nextpageji a{
+    text-decoration: none;
+}
+
+/*-------------jilightanimation---*/
+
+@keyframes jilighth1 {
+
+    0% {
+       text-shadow:  0px 0px 20px rgb(255,255,255, 0.5);
+    }
+
+    100% {
+       text-shadow:  0px 0px 15px rgb(255,255,255, 0.5);
+    }
+}
+
+@keyframes jilighth2 {
+
+    0% {
+       text-shadow:  0px 0px 20px rgb(160, 255, 255);
+    }
+
+    100% {
+       text-shadow:  0px 0px 15px rgb(160, 255, 255);
+    }
+}
+
+.fluidminus{
+    padding-left: 5vw!important;
+    padding-right: 5vw!important;
+}
+
+
+/*-------------arcade-----------------------------*/
+/*-------------maimai----------*/

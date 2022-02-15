@@ -1,0 +1,56 @@
+/*-----basics----*/
+
+.fluidminus{
+    padding-left: 2vw!important;
+    z-index: 2!important;
+    position: relative;
+     position: relative;    
+    /*-----height: 50vh !important;----*/
+    overflow: hidden;
+    left: 1vw;
+}
+
+.culturename h1{
+    font-size: 60px;
+}
+
+/*-----culture1----*/
+
+.culture1_1{
+    margin-top: 10vh!important;
+}
+
+.culture1_2{
+    margin-left: 2vw!important;
+}
+
+
+
+.left{
+    left: 5vw!important;
+    position: absolute;
+    width: 30vw!important;
+}
+
+/*-----culture2----*/
+
+.culture2_2{
+    margin-left: 2vw!important;
+}
+
+.ma4u2{
+    bottom: 0;
+    position: relative; 
+    max-height: 200vh;
+    height: 60vh;
+    width: 5vw;
+}
+
+/*-----culture3----*/
+
+.culture3_1{
+    position: relative;    
+    height: 40vh;
+}
+
+/*-----culture4----*/

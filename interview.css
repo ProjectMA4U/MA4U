@@ -1,0 +1,71 @@
+.intro{
+    padding: 0!important;
+}
+ 
+/*-----------lastpageblack--------------*/
+
+/*--.bottomblack{
+    margin: 0;
+    position: relative;
+    z-index: 500;
+    background: #22223A;
+    /*-background: white;---*/
+  /*-  padding-top: 5vh;
+    padding-bottom: 5vh;
+}--*/
+
+.nextpage{
+    padding-bottom: 20vh;
+}
+
+/*--------------blackbelt------------------------*/
+/*----.blackbelt {
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    width: 60vw;
+    height: 150vh;
+    right: 0;
+    background: #22223A;
+}-----*/
+
+.bkground {
+    background: #0E3EC5;
+   /*-- background-image: url(pics/smallsinbg.jpg);----*/
+    /*--background-image: url(pics/newbk2.png);--*/
+    background-size: contain;
+    overflow-x: hidden;
+    height: 300vh;
+}
+
+/*-----basics----*/
+
+.fluidminus{
+    padding-left: 2vw!important;
+    z-index: 2!important;
+    position: relative;  
+    z-index: 500;
+    /*-----height: 50vh !important;----*/
+    overflow: hidden;
+    left: 1vw;
+}
+
+.culturename h1{
+    font-size: 60px;
+}
+
+.upper{
+    position: relative;
+    z-index: 999;
+}
+/*-----interview1----*/
+
+
+/*-----interview2----*/
+
+
+/*-------end---------*/
+
+
+
+

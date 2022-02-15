@@ -1,0 +1,428 @@
+@font-face{
+    font-family: 'Dela Gothic One';
+    src: local("Dela Gothic One"),
+    url(DelaGothicOne-Regular.ttf);
+    font-family: 'Noto Sans TC';
+    src: local("Noto Sans TC"),
+    url(NotoSansTC-Regular.otf);
+}
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+ 
+.fluidminus{
+    padding-left: 5vw!important;
+    padding-right: 5vw!important;
+}
+
+.bkground {
+    background: #0E3EC5;
+   /*-- background-image: url(pics/smallsinbg.jpg);----*/
+    /*--background-image: url(pics/newbk2.png);--*/
+    background-size: contain;
+    overflow-x: hidden;
+    height: 500vh;
+}
+
+.ji_spacing{
+    height: 3vh;
+}
+ 
+
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 60px;
+    color: #F60067;
+    animation-name: jilighth1;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+h2 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 60px!important;
+    color: #0E3EC5;
+    position: relative;
+    z-index: 600 !important;
+    animation-name: jilighth2;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+p {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: #22223A;
+    color: white;
+    border-radius: 20px !important;
+    margin: 0!important;
+    font-size: 1.1rem;
+}
+
+.introkuan p {
+    padding: 20px !important;
+}
+
+.nextpageji a{
+    text-decoration: none;
+}
+
+/*--------------loading----------------------------*/
+
+.loading{
+    position: fixed;
+    z-index: 999;
+    background: white;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.block{
+    display: block;
+    height: 35vh;
+}
+
+/*--------------pallaxbkgorund----------------------------*/
+
+.spacing0{
+    width: 100vw;
+    height: 10vh;
+}
+
+.spacing05{
+    width: 100vw;
+    height: 5vh;
+}
+
+.movebkground1{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground2{
+    top: 200%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground3{
+    top: 400%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground4{
+    top: 600%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground5{
+    top: 800%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground6{
+    top: 1000%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground7{
+    top: 1200%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground8{
+    top: 1400%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground9{
+    top: 1600%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground10{
+    top: 1800%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground11{
+    top: 2000%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground12{
+    top: 2200%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+.movebkground13{
+    top: 2400%;
+    width: 100%;
+    height: 200%;
+    position: fixed;
+}
+
+/*--------------btn----------------------------*/
+
+.menu-btn {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: 3vh;
+    left: 27px;
+    z-index: 999 !important;
+    padding-top: 7px;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-btn span {
+
+    z-index: 999 !important;
+    width: 60%;
+    height: 3px;
+    background: #fff;
+    display: block;
+    margin: 9px auto;
+    transition: all 0.3s;
+}
+
+.menu-box {
+    z-index: 998 !important;
+    width: 160px;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: -120%;
+    padding-left: 40px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+
+.menu-box a {
+    font-family: 'Noto Sans TC', sans-serif !important;
+    z-index: 998 !important;
+    color: #0E3EC5;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 2;
+    text-decoration: none;
+
+}
+
+.menu-box.active {
+    top: 0 !important;
+}
+
+.menu-btn.active span:first-child {
+    transform: rotate(45deg) translate(8px, 15px);
+    background: #0E3EC5;
+}
+
+.menu-btn.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-btn.active span:last-child {
+    transform: rotate(-45deg) translate(2px, -8px);
+    background: #0E3EC5;
+}
+
+.mb1:hover {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #648dff;
+}
+
+.mb2:hover {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #648dff;
+}
+
+.mb3:hover {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #648dff;
+}
+
+.mb4:hover {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #648dff;
+}
+
+.mb5:hover {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #648dff;
+}
+
+.mb6:hover {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #648dff;
+}
+
+/*--------------logo----------------------------*/
+
+.logo {
+    z-index: 999;
+    position: fixed;
+    top: 3vh;
+    left: 100px;
+    display: block;
+}
+
+.TOPMA4U {
+    z-index: 999;
+    position: fixed;
+    top: 3vh;
+    right: 33px;
+    display: block;
+}
+
+.backtotopyouchan {
+    z-index: 998;
+    position: fixed;
+    top: 15vh;
+     /*-top: 3vh;--*/
+    right: 33px;
+    display: block;
+}
+
+/*--------------blackbelt------------------------*/
+/*--.blackbelt {
+    top: 0;
+    position: absolute;
+    z-index: 0;
+    width: 60vw;
+    height: 500vh;
+    right: 0;
+    background: #22223A;
+}--*/
+
+/*--------------stickylogotype------------------------*/
+.stickylogotype {
+    z-index: 999;
+    position: sticky;
+    margin-top: 3vh;
+    left: 170px;
+    background-image: url(pics/logotype_c.png);
+    background-size: contain;
+    width: 225px;
+    height: 50px;
+    top: 3.5vh;
+}
+
+/*--------------comic-----------------------*/
+/*--------------comic--*/
+.comic1 {
+    position: relative;
+    z-index: 400;
+    max-width: 70vw;
+    padding-bottom: 10vh;
+    margin: 0 auto;
+}
+
+.intro {
+    position: relative;
+    z-index: 400;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.spacing{
+    width: 100vw;
+    height: 30vh;
+}
+
+/*-----
+test parallax
+
+.test {
+    height: 20vh;
+
+}-----*/
+
+/*--------------nextpage---*/
+
+.nextpage{
+    z-index: 502;
+    text-align:right;　
+    position:relative;
+    padding-top: 5vh!important;
+    padding-bottom: 5vh!important;
+    /*--background: #22223A;--*/
+}
+
+.nextpageimg{
+    transform-origin: bottom;
+    display: block;
+    z-index: 502;
+    position: relative;
+}
+
+
+/*-------------jilightanimation---*/
+
+@keyframes jilighth1 {
+
+    0% {
+       text-shadow:  0px 0px 20px rgb(255,255,255, 0.5);
+    }
+
+    100% {
+       text-shadow:  0px 0px 15px rgb(255,255,255, 0.5);
+    }
+}
+
+
+@keyframes jilighth2 {
+
+    0% {
+       text-shadow:  0px 0px 20px rgb(160, 255, 255);
+    }
+
+    100% {
+       text-shadow:  0px 0px 15px rgb(160, 255, 255);
+    }
+}
+
+
+
+/*-------------arcade-----------------------------*/
+/*-------------maimai----------*/
