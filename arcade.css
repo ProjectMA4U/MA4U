@@ -4,9 +4,6 @@
     position: relative;
 }
 
-.bkground{
-    height: 2400vh;
-}
 /*--------------pplbutton------------------------*/
 
 .homepagestuck{
@@ -31,7 +28,7 @@
 
 .arcadenametop2{
     position: absolute;
-    bottom: 20vh;
+    bottom: 30vh;
     left: 8%;
 }
 
@@ -56,7 +53,7 @@
     display: block;
     z-index: 502;
     position: absolute;
-    bottom: 15vh;
+    bottom: 25vh;
     left: 45%;
 }
 
@@ -66,7 +63,7 @@
 
     z-index: 502;
     position: absolute;
-    bottom: 15vh;
+    bottom: 25vh;
         left: 62%;
     opacity: 100;
 }
@@ -76,7 +73,7 @@
 
     z-index: 502;
     position: absolute;
-    bottom: 15vh;
+    bottom: 25vh;
     opacity: 100;
 }
 
@@ -171,7 +168,6 @@
 {
     position: relative;
     z-index: 3 ;
-    top: -20vh;
 }
 
 .ma4u2{

@@ -30,10 +30,11 @@
 }-----*/
 
 .bkground {
-    background: #0E3EC5;
+    background-image: url(pics/newbk3withbk.png);
    /*-- background-image: url(pics/smallsinbg.jpg);----*/
     /*--background-image: url(pics/newbk2.png);--*/
-    background-size: contain;
+    background-attachment: fixed;
+    background-size: cover;
     overflow-x: hidden;
     height: 300vh;
 }
