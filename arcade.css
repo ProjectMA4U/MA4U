@@ -10,6 +10,7 @@
     
 }
 
+
 .arcadenametop1{
     position: absolute;
     right: 8%;
@@ -169,6 +170,16 @@
     padding-top: 5vh !important;
 }
 
+
+@media screen and (max-width: 768px){
+    /*-- phone--*/
+  .ma4u2{
+    display: none;
+}
+    
+}
+
+
 /*-----taiko----*/
 
 .taiko
@@ -218,3 +229,7 @@
 }
 
 /*-----ddr----*/
+
+/*----sdvx----*/
+
+
