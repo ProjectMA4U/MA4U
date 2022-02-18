@@ -90,9 +90,6 @@ p {
   }
 }---*/
 
-@media screen and (min-width: 400px) and (max-width: 960px) {
-  .header {
-  }
 
 .block{
     display: block;
@@ -557,4 +554,9 @@ test parallax
 
 
 /*-------------arcade-----------------------------*/
+
+@media screen and (max-width: 700px) {
+  .header {
+  }
+
 /*-------------maimai----------*/
