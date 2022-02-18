@@ -24,7 +24,7 @@ html {
     /*--background-image: url(pics/newbk2.png);--*/
     background-position: left center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     overflow-x: hidden;
     max-width: 100%;
     height: auto;
