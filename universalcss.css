@@ -18,17 +18,34 @@ html {
     padding-right: 5vw!important;
 }
 
-.bkground {
-    background-image: url(pics/newbk3withbk.png);
+.bkground {   /*--phone--*/
+    background-image: url(pics/newbk3.png);
    /*-- background-image: url(pics/smallsinbg.jpg);----*/
     /*--background-image: url(pics/newbk2.png);--*/
     background-position: right center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     overflow-x: hidden;
     max-width: 100%;
     height: auto;
 }
+
+@media screen and (min-width: 992px) { /*--desktop--*/
+  .bkground {
+      background-image: url(pics/newbk3withbk.png);
+      background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /*--ipad--*/
+  .bkground {
+      background-image: url(pics/newbk3withbk.png);
+      background-position: center center;
+      background-size: cover;
+  }
+}
+
 
 .ji_spacing{
     height: 3vh;
@@ -296,9 +313,9 @@ p {
 .comic1 {
     position: relative;
     z-index: 400;
-    max-width: 70vw;
     padding-bottom: 10vh;
     margin: 0 auto;
+    display: block;
 }
 
 .intro {
@@ -308,10 +325,26 @@ p {
     margin-bottom: 10vh;
 }
 
+.comicphone{
+      display: none;
+    }
+
 .spacing{
     width: 100vw;
     height: 30vh;
 }
+
+@media screen and (max-width: 768px){
+    /*--turn off comic1--*/
+  .comicdesktop{
+      display: none;
+  }
+  .comicphone{
+      display: block;
+    }
+}
+
+
 
 /*-----
 test parallax
@@ -369,3 +402,5 @@ test parallax
 
 /*-------------arcade-----------------------------*/
 /*-------------maimai----------*/
+
+
