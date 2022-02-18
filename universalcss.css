@@ -270,22 +270,23 @@ p {
 /*--------------logo----------------------------*/
 
 .logo {
-    z-index: 999;
+    z-index: 995;
     position: fixed;
     top: 3vh;
     left: 100px;
     display: block;
 }
 
+
 @media screen and (max-width: 768px){
     /*--span in phone--*/
   .menu-btn {
       left: 3vw;
-      
   }
   .logo {
-      left: 25vw;
-      
+      /*--left: auto;
+      right: 5vw;--*/
+      position: absolute;
     }
 }
 
@@ -312,21 +313,20 @@ p {
       display: none;
   }
   .backtotopyouchan{
-        top: 3vh;
-      position: fixed;
+        top: 1.5vh;
+      right: 3vw;
+      position: absolute;
     }
 }
 
 /*--------------stickylogotype------------------------*/
-.stickylogotype {
-    z-index: 999;
+.stickybacktotop {
+    z-index: 990;
     position: sticky;
     margin-top: 3vh;
-    left: 170px;
-    background-image: url(pics/logotype_c.png);
-    background-size: contain;
+    padding-top: 60px;
+    left: 3vw;
     width: 225px;
-    height: 50px;
     top: 3.5vh;
 }
 
@@ -506,6 +506,13 @@ test parallax
         padding-right: 0!important;
     }
     
+    .comic1{
+        padding-bottom: 0;
+    }
+    
+    .intro{
+        margin-bottom: 0;
+    }
 }
 
 
