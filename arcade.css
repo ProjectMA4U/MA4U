@@ -212,7 +212,7 @@
     }
 
 @media screen and (max-width: 768px){
-    /*--ji size phone--*/
+    /*--phone--*/
   .taikogifdesktop img{
       display: none;
     }
@@ -230,8 +230,23 @@
     
 }
 
-/*-----ddr----*/
+/*-----ddr--iidx-sdvx--*/
 
-/*----sdvx----*/
+@media screen and (max-width: 768px){
+    /*--phone--*/
+    .ddrji{
+        padding-top: 3vh;
+    }
+    .iidxpadding{
+        margin-right: 3vw!important;
+    }
+    .sdvxname h1{
+        font-size: 2rem;
+    }
+    .sdvxji1padding{
+        margin-right: 3vw!important;
+    }
+}
+
 
 

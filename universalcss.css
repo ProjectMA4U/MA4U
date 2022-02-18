@@ -162,6 +162,12 @@ p {
     height: 5vh;
 }
 
+.spacing025{
+    width: 100vw;
+    height: 2.5vh;
+}
+
+
 
 /*--------------btn----------------------------*/
 
@@ -465,6 +471,10 @@ test parallax
     }  
     
     .phoneblock p{
+    display: block;
+    }
+    
+    .phoneblock h1{
     display: block;
     }
     
