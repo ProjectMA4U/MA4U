@@ -107,7 +107,14 @@
 }
 
 .arcadename h1{
-    font-size: 60px;
+    font-size: 3.75rem;
+}
+
+@media screen and (max-width: 768px){
+    /*--ji size phone--*/
+  .arcadename h1{
+      font-size: 2.5rem;
+    }
 }
 
 /*-----maimai----*/
@@ -176,3 +183,36 @@
     max-height: 200vh;
     height: 55vh;
 }
+
+@media screen and (max-width: 768px){
+    /*--turn off comic1 in phone--*/
+  .comicdesktop{
+      display: none;
+  }
+  .comicphone{
+      display: block;
+    }
+}
+
+.taikogifphone{
+      display: none;
+    }
+
+@media screen and (max-width: 768px){
+    /*--ji size phone--*/
+  .taikogifdesktop img{
+      display: none;
+    }
+    .taikogifphone img{
+        width: 100%;
+    }
+    .taiko2{
+        padding-left: 0!important;
+        overflow-x: hidden;
+    }
+    .taiko2 img{
+        max-width: 101vw!important;
+    }
+}
+
+/*-----ddr----*/

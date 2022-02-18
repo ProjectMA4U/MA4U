@@ -410,6 +410,20 @@ p {
     margin: 0 auto;
 }
 
+.comicphone{
+      display: none;
+    }
+
+@media screen and (max-width: 768px){
+    /*--turn off comic1 in phone--*/
+  .comicdesktop{
+      display: none;
+  }
+  .comicphone{
+      display: block;
+    }
+}
+
 .intro {
     position: relative;
     z-index: 400;

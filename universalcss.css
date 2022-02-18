@@ -124,6 +124,14 @@ p {
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px){
+    /*--ji size phone--*/
+  .container-fluid p{
+      font-size: 0.85rem;
+      background: none;
+    }
+}
+
 /*--------------loading----------------------------*/
 
 .loading{
@@ -433,8 +441,37 @@ test parallax
 }
 
 
+/*-------------spaces for phone-----------------------------*/
 
-/*-------------arcade-----------------------------*/
-/*-------------maimai----------*/
+.phoneblock{
+    display: none;
+}
+
+.phoneblock img{
+    display: none;
+}
+
+.desktopblock{
+    display: block;
+}
+
+.desktopblock img{
+    display: block;
+}
+
+@media screen and (max-width: 768px){
+    /*--turn on in phone--*/
+  .phoneblock{
+      display: block;
+    }
+.phoneblock img{
+    display: block;
+}    
+    
+  .ma4uphone{
+      display: none;
+    }
+}
+
 
 
