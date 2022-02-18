@@ -19,7 +19,7 @@ html {
 }
 
 .bkground {   /*--phone--*/
-    background-image: url(pics/newbk3.png);
+    background-image: url(pics/newbk3phone.png);
    /*-- background-image: url(pics/smallsinbg.jpg);----*/
     /*--background-image: url(pics/newbk2.png);--*/
     background-position: right center;
@@ -257,6 +257,8 @@ p {
     color: #648dff;
 }
 
+
+
 /*--------------logo----------------------------*/
 
 .logo {
@@ -265,6 +267,16 @@ p {
     top: 3vh;
     left: 100px;
     display: block;
+}
+
+@media screen and (max-width: 768px){
+    /*--span in phone--*/
+  .menu-btn {
+      left: 3vw;
+  }
+  .logo {
+      left: 25vw;
+    }
 }
 
 .TOPMA4U {
@@ -282,6 +294,16 @@ p {
      /*-top: 3vh;--*/
     right: 33px;
     display: block;
+}
+
+@media screen and (max-width: 768px){
+    /*--turn off topma4u in phone--*/
+  .TOPMA4U {
+      display: none;
+  }
+  .backtotopyouchan{
+        top: 3vh;
+    }
 }
 
 /*--------------blackbelt------------------------*/
@@ -307,6 +329,18 @@ p {
     height: 50px;
     top: 3.5vh;
 }
+
+@media screen and (max-width: 768px){
+    /*--turn off in phone--*/
+  .stickylogotype{
+      display: none;
+  }
+    .comic1{
+        padding-top: 5vh;
+    }
+}
+
+
 
 /*--------------comic-----------------------*/
 /*--------------comic--*/
@@ -335,7 +369,7 @@ p {
 }
 
 @media screen and (max-width: 768px){
-    /*--turn off comic1--*/
+    /*--turn off comic1 in phone--*/
   .comicdesktop{
       display: none;
   }

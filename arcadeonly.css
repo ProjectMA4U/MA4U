@@ -1,0 +1,10 @@
+/*-----selectma4u----*/
+@media screen and (max-width: 768px){
+    /*--turn off topma4u in phone--*/
+  .TOPMA4U {
+      display: block;
+  }
+    .backtotopyouchan{
+        top: 15vh;
+    }
+}
