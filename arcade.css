@@ -176,7 +176,9 @@
   .ma4u2{
     display: none;
 }
-    
+    .maitext p{
+        padding-top: 0vh!important;
+    }
 }
 
 

@@ -443,6 +443,10 @@ test parallax
     display: none;
 }
 
+.phoneblock p{
+    display: none;
+}
+
 .desktopblock{
     display: block;
 }
@@ -458,13 +462,21 @@ test parallax
     }
   .phoneblock img{
     display: block;
-    }    
+    }  
+    
+    .phoneblock p{
+    display: block;
+    }
     
     .desktopblock{
     display: none;
 }
     
     .desktopblock img{
+    display: none;
+}
+    
+    .desktopblock p{
     display: none;
 }
     
@@ -484,6 +496,14 @@ test parallax
     
     .fluidminusspeical{
         padding-right: 0vw!important;
+    }
+    
+    .nopaddingleft{
+        padding-left: 0!important;
+    }
+    
+    .nopaddingright{
+        padding-right: 0!important;
     }
     
 }
