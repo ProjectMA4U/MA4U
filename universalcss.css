@@ -19,12 +19,12 @@ html {
 }
 
 .bkground {   /*--phone--*/
-    background-image: url(pics/newbk3phone.png);
+    background-image: url(pics/newbk3phonenew.png);
    /*-- background-image: url(pics/smallsinbg.jpg);----*/
     /*--background-image: url(pics/newbk2.png);--*/
-    background-position: right center;
+    background-position: left center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     overflow-x: hidden;
     max-width: 100%;
     height: auto;
@@ -314,17 +314,6 @@ p {
     }
 }
 
-/*--------------blackbelt------------------------*/
-/*--.blackbelt {
-    top: 0;
-    position: absolute;
-    z-index: 0;
-    width: 60vw;
-    height: 500vh;
-    right: 0;
-    background: #22223A;
-}--*/
-
 /*--------------stickylogotype------------------------*/
 .stickylogotype {
     z-index: 999;
@@ -464,12 +453,19 @@ test parallax
   .phoneblock{
       display: block;
     }
-.phoneblock img{
+  .phoneblock img{
     display: block;
-}    
+    }    
     
   .ma4uphone{
       display: none;
+    }
+    
+    .nextpageji a h3{
+      font-size: 1.5rem!important;
+    }
+    .nextpageji a h4{
+      font-size: 1.5rem!important;
     }
 }
 
