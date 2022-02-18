@@ -22,7 +22,7 @@ html {
     background-image: url(pics/newbk3withbk.png);
    /*-- background-image: url(pics/smallsinbg.jpg);----*/
     /*--background-image: url(pics/newbk2.png);--*/
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
