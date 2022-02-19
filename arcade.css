@@ -29,7 +29,7 @@
 
 .arcadenametop2{
     position: absolute;
-    bottom: 30vh;
+    bottom: 25vh;
     left: 8%;
 }
 
@@ -54,7 +54,7 @@
     display: block;
     z-index: 502;
     position: absolute;
-    bottom: 25vh;
+    bottom: 20vh;
     left: 45%;
 }
 
@@ -64,7 +64,7 @@
 
     z-index: 502;
     position: absolute;
-    bottom: 25vh;
+    bottom: 20vh;
         left: 62%;
     opacity: 100;
 }
@@ -74,7 +74,7 @@
 
     z-index: 502;
     position: absolute;
-    bottom: 25vh;
+    bottom: 20vh;
     opacity: 100;
 }
 

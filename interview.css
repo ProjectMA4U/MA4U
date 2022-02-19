@@ -29,16 +29,6 @@
     background: #22223A;
 }-----*/
 
-.bkground {
-    background-image: url(pics/newbk3withbk.png);
-   /*-- background-image: url(pics/smallsinbg.jpg);----*/
-    /*--background-image: url(pics/newbk2.png);--*/
-    background-attachment: fixed;
-    background-size: cover;
-    overflow-x: hidden;
-    height: 300vh;
-}
-
 /*-----basics----*/
 
 .fluidminus{
@@ -52,7 +42,28 @@
 }
 
 .culturename h1{
-    font-size: 60px;
+    font-size: 3.75rem;
+}
+
+@media screen and (max-width: 768px){
+    /*--ji size phone--*/
+  .culturename h1{
+      font-size: 2.5rem;
+    }
+    .nextpageimg img{
+        width: 15vw!important;
+    }
+    .nextpageimg{
+        left: 1vw;
+    }
+    .row p{
+      font-size: 0.85rem;
+      background: none;
+    }
+    .nextpageji h2{
+        text-align: left;
+    }
+    
 }
 
 .upper{

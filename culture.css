@@ -11,7 +11,20 @@
 }
 
 .culturename h1{
-    font-size: 60px;
+    font-size: 3.75rem;
+}
+
+@media screen and (max-width: 768px){
+    /*--ji size phone--*/
+  .culturename h1{
+      font-size: 2.5rem;
+    }
+    .nextpageimg img{
+        width: 20vw!important;
+    }
+    .nextpageimg{
+        right: 5vw;
+    }
 }
 
 /*-----culture1----*/
@@ -54,3 +67,4 @@
 }
 
 /*-----culture4----*/
+

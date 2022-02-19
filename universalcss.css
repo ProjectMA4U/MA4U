@@ -130,6 +130,10 @@ p {
       font-size: 0.85rem;
       background: none;
     }
+    .container p{
+      font-size: 0.85rem;
+      background: none;
+    }
 }
 
 /*--------------loading----------------------------*/
@@ -487,6 +491,10 @@ test parallax
 }
     
     .desktopblock p{
+    display: none;
+}
+    
+    .desktopblock h1{
     display: none;
 }
     
