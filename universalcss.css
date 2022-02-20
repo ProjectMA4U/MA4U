@@ -209,9 +209,10 @@ p {
 
 .menu-box {
     z-index: 998 !important;
-    width: 160px;
+    width: 150px;
     height: 100vh;
-    background: white;
+    background-image: url(pics/selectusewhiteblock.jpg);
+    background-size: cover;
     position: fixed;
     left: 0;
     top: -120%;
@@ -232,8 +233,8 @@ p {
     margin-bottom: 20px;
     line-height: 2;
     text-decoration: none;
-
 }
+
 
 .menu-box.active {
     top: 0 !important;
@@ -283,6 +284,17 @@ p {
     color: #648dff;
 }
 
+@media screen and (max-width: 768px) { /*--phone select--*/
+  .menu-box {
+      padding-left: 5vw;
+      width: 20.5vw;
+  }
+    
+  .menu-box a {
+      line-height: 2.8;
+      font-size: 20px;
+  }
+}
 
 
 /*--------------logo----------------------------*/

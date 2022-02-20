@@ -170,9 +170,10 @@ p {
 
 .menu-box {
     z-index: 998 !important;
-    width: 160px;
+    width: 150px;
     height: 100vh;
-    background: white;
+    background-image: url(pics/selectusewhiteblock.jpg);
+    background-size: cover;
     position: fixed;
     left: 0;
     top: -120%;
@@ -272,7 +273,7 @@ p {
     top: 22vh;
     width: 70vw;
     height: 50vh;
-    background-image: url(pics/homepagebg_big_2.jpg);
+    background-image: url(pics/newbk3.png);
     background-size: contain;
     box-sizing: border-box;
     /*-animation-name: herolight;
@@ -745,7 +746,7 @@ test parallax
         position: relative;
         top: 22vh;
         width: 80vw;
-        height: 70vh;
+        height: 65vh;
         background-image: url(pics/homepagebg_big_2.jpg);
         background-size: contain;
         box-sizing: border-box;
@@ -812,7 +813,7 @@ test parallax
     /*-----------introwordgroundcss---------*/
     
     .logotype{
-        top: 15vh;
+        top: 14.5vh;
         left: 0;
         margin-left: 7vw;
         margin-right: 7vw;
@@ -862,4 +863,16 @@ test parallax
     .nextpageimg img{
         width: 20vw!important;
     }
+}
+
+@media screen and (max-width: 768px) { /*--phone select--*/
+  .menu-box {
+      padding-left: 5vw;
+      width: 20.5vw;
+  }
+    
+  .menu-box a {
+      line-height: 2.8;
+      font-size: 20px;
+  }
 }
