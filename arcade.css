@@ -213,7 +213,7 @@
 
 @media screen and (max-width: 768px){
     /*--phone--*/
-  .taikogifdesktop img{
+    .taikogifdesktop img{
       display: none;
     }
     .taikogifphone img{
@@ -249,4 +249,25 @@
 }
 
 
+/*-----select----------*/
 
+
+
+@media screen and (max-width: 768px){
+    /*--phone--*/
+    .maimaiicon{
+        height: 20vh!important;
+    }
+    .taikoicon{
+        height: 20vh!important;
+    }
+    .ddricon{
+        
+    }
+    .iidxicon{
+        
+    }
+    .sdvxicon{
+        
+    }
+}

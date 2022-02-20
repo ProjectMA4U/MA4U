@@ -1,10 +1,104 @@
 /*-----selectma4u----*/
-@media screen and (max-width: 768px){
+.TOPMA4Ubutton {
+    z-index: 999;
+    position: fixed;
+    top: 3vh;
+    right: 6vw;
+    display: block;
+}
+
+.bkground {
+    background-image: url(pics/newbk3.png);
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+
     /*--turn off topma4u in phone--*/
-  .TOPMA4U {
-      display: block;
-  }
-    .backtotopyouchan{
-        top: 15vh;
+    .TOPMA4U {
+        display: none;
     }
+
+    .backtotopyouchan {
+        display: none;
+    }
+
+    .logo {
+        left: 22.5vw;
+    }
+    
+    .name{
+        position: relative;
+        z-index: 502;
+    }
+
+    .name h1 {
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+    
+    .name a{
+        text-decoration: none;
+    }
+
+    .maimaiicon{
+        transform-origin: top;
+        display: block;
+        position: relative;
+        left: auto;
+    }
+    
+    .maimaiicon img{
+       max-height: 100%;
+    }
+
+    .taikoicon{
+        transform-origin: top;
+        display: block;
+        position: relative;
+        left: auto;
+    }
+    
+    .taikoicon img{
+       max-height: 100%;
+    }
+
+
+    .ddricon{
+        transform-origin: top;
+        display: block;
+        position: relative;
+        left: auto;
+        bottom: auto;
+    }
+    
+    .ddricon img{
+       max-height: 100%;
+    }
+
+    .iidxicon{
+        transform-origin: top;
+        display: block;
+        position: relative;
+        left: auto;
+        bottom: auto;
+    }
+    
+    .iidxicon img{
+       max-height: 100%;
+    }
+
+    .sdvxicon{
+        transform-origin: top;
+        display: block;
+        position: relative;
+        left: auto;
+        bottom: auto;
+    }
+    
+    .sdvxicon img{
+       max-height: 100%;
+    }
+
 }

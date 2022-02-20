@@ -6,6 +6,7 @@
     src: local("Noto Sans TC"),
     url(NotoSansTC-Regular.otf);
 }
+
 html {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -32,7 +33,7 @@ html {
 
 @media screen and (min-width: 992px) { /*--desktop--*/
   .bkground {
-      background-image: url(pics/newbk3withbk.png);
+      background-image: url(pics/newbk3withbknew.png);
       background-size: cover;
   }
 }
@@ -40,7 +41,7 @@ html {
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /*--ipad--*/
   .bkground {
-      background-image: url(pics/newbk3withbk.png);
+      background-image: url(pics/newbk3withbknew.png);
       background-position: center center;
       background-size: cover;
   }
@@ -135,6 +136,13 @@ p {
       background: none;
     }
 }
+
+.container-fluid p{
+      background: none;
+    }
+    .container p{
+      background: none;
+    }
 
 /*--------------loading----------------------------*/
 
@@ -338,6 +346,7 @@ p {
     left: 3vw;
     width: 225px;
     top: 3.5vh;
+    
 }
 
 @media screen and (max-width: 768px){
@@ -530,6 +539,17 @@ test parallax
     
     .intro{
         margin-bottom: 0;
+    }
+    
+    html,body{
+        /*--overflow-x:hidden;--*/
+    }
+    
+    .addpadding{
+        padding-right: 5vw;
+    }
+    .addpaddinghalf{
+        padding-right: 3vw;
     }
 }
 

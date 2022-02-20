@@ -2,8 +2,9 @@
 <html lang="zh-Hant">
 
 <head>
-   <link rel="shortcut icon" type="image/x-icon" href="logoicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="logoicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=deice-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <meta charset="UTF-8">
 
     <title>機種介紹</title>
@@ -48,7 +49,7 @@
 
 <!--BODY-->
 
-<body class="bkground" id="ID3" style="background-image: url(pics/newbk3.png);overflow-y: hidden;">
+<body class="bkground" id="ID3" style="overflow-y: hidden;">
 
     <!--loading-->
 
@@ -74,7 +75,8 @@
         <br>
         <br>
         <a href="index.html" class="mb1">首頁</a><br>
-        <a href="index.html#ID2" class="mb2">簡介</a><br>
+        <a href="index.html#ID2" class="mb2 desktopblock" style="margin-bottom: 0px;">簡介</a>
+        <a href="index.html#ID2phone" class="mb2 phoneblock" style="margin-bottom: 0px;">簡介</a>
         <a href="#ID3" class="mb3">音遊</a><br>
         <a href="culture.html" class="mb4">文化</a><br>
         <a href="interview.html" class="mb5">訪問</a><br>
@@ -87,9 +89,14 @@
     <div class="TOPMA4U">
         <img src="pics/MA4U.png" alt="" width="60vw;">
     </div>
+    <div class="TOPMA4Ubutton phoneblock">
+       <a href="index.html" class="">
+       <img src="pics/MA4U.png" alt="" width="60vw;">
+       </a>
+    </div>
 
     <div class="backtotopyouchan">
-        <a href="#ID3" class="backtotopyouchan"><img src="pics/backtotop.png" alt="" width="60vw;"></a>
+        <a href="index.html" class="backtotopyouchan"><img src="pics/firstpage.png" alt="" width="60vw;"></a>
     </div>
 
     <!--select-->
@@ -97,10 +104,13 @@
     <div class="container-fluid select">
 
         <div class="spacing0"></div>
-        <div class="spacing0"></div>
+        <div class="spacing0 desktopblock"></div>
+        
+        
+        <!--desktop-->
 
 
-        <div class="container-fluid homepagestuck">
+        <div class="container-fluid homepagestuck desktopblock">
             <div class="row buttons1 ">
                 <div class="col-3">
                     <a href="arcade01.html" class="maimaiicon"><img src="pics/arcade/maimai/maimai_0.png" alt="" style="transform-origin: bottom; height: 40vh;" class="img-fluid"></a>
@@ -131,7 +141,7 @@
             </div>
             
             
-          <div class="container-fluid homepagestuck">  
+        <div class="container-fluid homepagestuck desktopblock">  
             <div class="row buttons2 justify-content-end align-items-end">
 
                 <div class="col-1 arcadenametop2">
@@ -164,14 +174,71 @@
                 </div>
                 <div class="col-1"></div>
             </div>
-
-
-
-
-
-
-
         </div>
+        
+        <!--phone-->
+        
+        <div class="container homepagestuck phoneblock nopaddingright">
+            <div class="row">
+                <div class="col-6 nopaddingright">
+                    <a href="arcade01.html" class="maimaiicon nopaddingleft nopaddingright"><img src="pics/arcade/maimai/maimai_1_1.gif" alt="" class="img-fluid mx-auto"></a>
+                    <div class="row name name1 justify-content-center ">
+                       <div class="col-10">
+                           <a href="arcade01.html">
+                            <h1>MAIMAI</h1>
+                        </a>
+                       </div>
+                       
+                     <div class="spacing025"></div>   
+                     
+                    </div>
+                    <a href="arcade02.html" class="taikoicon nopaddingleft nopaddingright"><img src="pics/arcade/taiko/taiko.gif" alt="" class="img-fluid mx-auto"></a>
+                    <div class="row name name2 justify-content-center ">
+                       <div class="col-10">
+                           <a href="arcade01.html">
+                            <h1>TAIKO</h1>
+                        </a>
+                       </div>
+                       
+                       <div class="spacing025"></div>
+                          
+                    </div>
+                    <a href="arcade03.html" class="ddricon nopaddingleft nopaddingright"><img src="pics/arcade/ddr/DDR.gif" alt="" class="img-fluid mx-auto"></a>
+                    <div class="row name name3 justify-content-center ">
+                       <div class="col-10">
+                           <a href="arcade03.html">
+                            <h1>DDR</h1>
+                        </a>
+                       </div> 
+                    </div>
+                </div>
+                <div class="col-6">
+                   <br><br><br><br>
+                    <a href="arcade04.html" class="iidxicon nopaddingleft nopaddingright"><img src="pics/arcade/iidx/iidx.gif" alt="" class="img-fluid mx-auto"></a>
+                    <div class="row name name1 justify-content-center ">
+                       <div class="col-10">
+                           <a href="arcade04.html">
+                            <h1>IIDX</h1>
+                        </a>
+                       </div>
+                       
+                     <div class="spacing025"></div>   
+                     
+                    </div>
+                    <a href="arcade05.html" class="sdvxicon  nopaddingright"><img src="pics/arcade/sdvx/sdvx.gif" alt="" class="img-fluid" style="width: 90%;"></a>
+                    <div class="row name name2 justify-content-center ">
+                       <div class="col-10">
+                           <a href="arcade05.html">
+                            <h1>SDVX</h1>
+                        </a>
+                       </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
     </div>
 
 
@@ -480,14 +547,14 @@
 
     <script>
         $(".backtotopyouchan").mouseleave(function() {
-            $(".backtotopyouchan img").attr("src", "pics/backtotop.png");
+            $(".backtotopyouchan img").attr("src", "pics/firstpage.png");
         });
 
     </script>
 
     <script>
         $(".backtotopyouchan").mouseover(function() {
-            $(".backtotopyouchan img").attr("src", "pics/backtotop_1.png");
+            $(".backtotopyouchan img").attr("src", "pics/firstpage_1.png");
         });
 
     </script>

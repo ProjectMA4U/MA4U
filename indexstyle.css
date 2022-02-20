@@ -1,10 +1,10 @@
-@font-face{
+@font-face {
     font-family: 'Dela Gothic One';
     src: local("Dela Gothic One"),
-    url(DelaGothicOne-Regular.ttf);
+        url(DelaGothicOne-Regular.ttf);
     font-family: 'Noto Sans TC';
     src: local("Noto Sans TC"),
-    url(NotoSansTC-Regular.otf);
+        url(NotoSansTC-Regular.otf);
 }
 
 html {
@@ -19,12 +19,22 @@ html {
 
 .bkground {
     background: #0E3EC5;
-   /*-- background-image: url(pics/smallsinbg.jpg);----*/
+    /*-- background-image: url(pics/smallsinbg.jpg);----*/
     /*--background-image: url(pics/newbk2.png);--*/
     background-size: contain;
     overflow-x: hidden;
-    height: 500vh;
 }
+
+@media screen and (max-width: 768px) {
+
+    .bkground {
+        background-image: url(pics/newbk3phonenew.png);
+        background-size: contain;
+    }
+
+}
+
+
 
 .header {
     margin: 0;
@@ -48,7 +58,7 @@ h1 {
 
 h2 {
     font-family: 'Dela Gothic One', cursive;
-    font-size: 60px!important;
+    font-size: 60px !important;
     color: #0E3EC5;
     position: relative;
     z-index: 600 !important;
@@ -56,7 +66,7 @@ h2 {
     animation-duration: 1.5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    
+
 }
 
 p {
@@ -64,7 +74,7 @@ p {
     background: #22223A;
     color: white;
     border-radius: 20px !important;
-    margin: 0!important;
+    margin: 0 !important;
     font-size: 1.1rem;
 }
 
@@ -74,7 +84,7 @@ p {
 
 /*--------------loading----------------------------*/
 
-.loading{
+.loading {
     position: fixed;
     z-index: 999;
     background: white;
@@ -91,7 +101,7 @@ p {
 }---*/
 
 
-.block{
+.block {
     display: block;
     height: 35vh;
 }
@@ -99,33 +109,33 @@ p {
 
 /*--------------pallaxbkgorund----------------------------*/
 
-.movebkground1{
+.movebkground1 {
     top: 0;
     width: 100%;
     height: 220%;
     position: fixed;
 }
 
-.spacing0{
+.spacing0 {
     width: 100vw;
     height: 10vh;
 }
 
-.movebkground2{
+.movebkground2 {
     top: 210%;
     width: 100%;
     height: 200%;
     position: fixed;
 }
 
-.movebkground3{
+.movebkground3 {
     top: 410%;
     width: 100%;
     height: 200%;
     position: fixed;
 }
 
-.movebkground4{
+.movebkground4 {
     top: 610%;
     width: 100%;
     height: 150%;
@@ -149,7 +159,6 @@ p {
 }
 
 .menu-btn span {
-
     z-index: 999 !important;
     width: 60%;
     height: 3px;
@@ -253,6 +262,7 @@ p {
     right: 33px;
     display: block;
 }
+
 /*--------------firstpage----------------------------*/
 
 .heroimg {
@@ -265,7 +275,7 @@ p {
     background-image: url(pics/homepagebg_big_2.jpg);
     background-size: contain;
     box-sizing: border-box;
- /*-animation-name: herolight;
+    /*-animation-name: herolight;
     animation-duration: 2.5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;--*/
@@ -337,6 +347,11 @@ p {
     left: 10%;
 }
 
+.door img {
+    transform-origin: bottom;
+    width: 13vw;
+}
+
 .arc {
     transform-origin: bottom;
     display: block;
@@ -346,6 +361,11 @@ p {
     left: 24%;
 }
 
+.arc img {
+    transform-origin: bottom;
+    width: 27vw;
+}
+
 .coin {
     transform-origin: bottom;
     display: block;
@@ -353,6 +373,11 @@ p {
     position: absolute;
     bottom: 15vh;
     left: 52%;
+}
+
+.coin img {
+    transform-origin: bottom;
+    width: 14vw;
 }
 
 
@@ -366,6 +391,54 @@ p {
     opacity: 100;
 }
 
+.interview img {
+    transform-origin: bottom;
+    width: 18vw;
+}
+
+@media screen and (max-width: 768px) {
+
+    /*--ji size phone--*/
+    .door {
+        transform-origin: bottom;
+        display: block;
+        z-index: 502;
+        position: absolute;
+        top: 15vh;
+        left: 10%;
+    }
+
+    .arc {
+        transform-origin: bottom;
+        display: block;
+        z-index: 502;
+        position: absolute;
+        bottom: 15vh;
+        left: 24%;
+    }
+
+    .coin {
+        transform-origin: bottom;
+        display: block;
+        z-index: 502;
+        position: absolute;
+        bottom: 15vh;
+        left: 52%;
+    }
+
+
+    .interview {
+        transform-origin: bottom;
+
+        z-index: 502;
+        position: absolute;
+        bottom: 15vh;
+        left: 67%;
+        opacity: 100;
+    }
+
+}
+
 /*--------------pplbuttonanimation------------------------*/
 /*--------------???iruCheck------------------------*/
 
@@ -374,7 +447,7 @@ p {
 }
 
 /*--------------blackbelt------------------------*/
-    .blackbelt {
+.blackbelt {
     top: 270vh;
     position: absolute;
     z-index: 0;
@@ -410,17 +483,19 @@ p {
     margin: 0 auto;
 }
 
-.comicphone{
-      display: none;
+.comicphone {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    /*--turn off comic1 in phone--*/
+    .comicdesktop {
+        display: none;
     }
 
-@media screen and (max-width: 768px){
-    /*--turn off comic1 in phone--*/
-  .comicdesktop{
-      display: none;
-  }
-  .comicphone{
-      display: block;
+    .comicphone {
+        display: block;
     }
 }
 
@@ -455,13 +530,13 @@ p {
 }
 
 .pics_2 {
-    position: relative;    
+    position: relative;
     height: 80vh;
 }
 
-.ma4u{
+.ma4u {
     bottom: 0;
-    position: relative; 
+    position: relative;
     max-height: 120vh;
     height: 40vh;
 }
@@ -478,18 +553,18 @@ p {
 }
 
 .pics_3 {
-    position: relative;    
+    position: relative;
 }
 
 
-.ma4u2{
+.ma4u2 {
     bottom: 0;
-    position: relative; 
+    position: relative;
     max-height: 200vh;
     height: 60vh;
 }
 
-/*--------------intro4---*/ 
+/*--------------intro4---*/
 
 .intro_4 {
     border-top: 10vh;
@@ -497,7 +572,7 @@ p {
     position: relative;
 }
 
-.spacing{
+.spacing {
     width: 100vw;
     height: 30vh;
 }
@@ -510,30 +585,30 @@ test parallax
 
 }-----*/
 
-.spacing0{
+.spacing0 {
     width: 100vw;
     height: 10vh;
 }
 
 /*--------------nextpage---*/
 
-.nextpage{
+.nextpage {
     z-index: 502;
-    text-align:right;　
-    position:relative;
-    padding-top: 5vh!important;
-    padding-bottom: 5vh!important;
+    text-align: right;
+    position: relative;
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important;
     /*--background: #22223A;--*/
 }
 
-.nextpageimg{
+.nextpageimg {
     transform-origin: bottom;
     display: block;
     z-index: 502;
     position: relative;
 }
 
-.nextpageji a{
+.nextpageji a {
     text-decoration: none;
 }
 
@@ -542,35 +617,249 @@ test parallax
 @keyframes jilighth1 {
 
     0% {
-       text-shadow:  0px 0px 20px rgb(255,255,255, 0.5);
+        text-shadow: 0px 0px 20px rgb(255, 255, 255, 0.5);
     }
 
     100% {
-       text-shadow:  0px 0px 15px rgb(255,255,255, 0.5);
+        text-shadow: 0px 0px 15px rgb(255, 255, 255, 0.5);
     }
 }
 
 @keyframes jilighth2 {
 
     0% {
-       text-shadow:  0px 0px 20px rgb(160, 255, 255);
+        text-shadow: 0px 0px 20px rgb(160, 255, 255);
     }
 
     100% {
-       text-shadow:  0px 0px 15px rgb(160, 255, 255);
+        text-shadow: 0px 0px 15px rgb(160, 255, 255);
     }
 }
 
-.fluidminus{
-    padding-left: 5vw!important;
-    padding-right: 5vw!important;
+.fluidminus {
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
 }
 
 
 /*-------------arcade-----------------------------*/
 
-@media screen and (max-width: 700px) {
-  .header {
-  }
+@media screen and (max-width: 768px) {
 
-/*-------------maimai----------*/
+    /*--ji size phone--*/
+    .header {}
+
+    .culturename h1 {
+        font-size: 2.5rem;
+    }
+
+    .nextpageimg img {
+        width: 15vw !important;
+    }
+
+    .nextpageimg {
+        left: 1vw;
+    }
+
+    .row p {
+        font-size: 0.85rem;
+        background: none;
+    }
+
+    .nextpageji h2 {
+        text-align: left;
+    }
+
+}
+
+/*-------------spaces for phone-----------------------------*/
+
+.phoneblock {
+    display: none;
+}
+
+.phoneblock img {
+    display: none;
+}
+
+.phoneblock p {
+    display: none;
+}
+
+.desktopblock {
+    display: block;
+}
+
+.desktopblock img {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+    /*--turn on in phone--*/
+    .phoneblock {
+        display: block;
+    }
+
+    .phoneblock img {
+        display: block;
+    }
+
+    .phoneblock p {
+        display: block;
+    }
+
+    .phoneblock h1 {
+        display: block;
+    }
+
+    .desktopblock {
+        display: none;
+    }
+
+    .desktopblock img {
+        display: none;
+    }
+
+    .desktopblock p {
+        display: none;
+    }
+
+    .desktopblock h1 {
+        display: none;
+    }
+
+    .menu-btn {
+        left: 3vw;
+    }
+
+    .logo {
+        left: 22.5vw;
+        /*--right: 5vw;--*/
+        position: fixed;
+    }
+
+    .heroimg {
+        z-index: 500;
+        margin: auto;
+        position: relative;
+        top: 22vh;
+        width: 80vw;
+        height: 70vh;
+        background-image: url(pics/homepagebg_big_2.jpg);
+        background-size: contain;
+        box-sizing: border-box;
+        /*-animation-name: herolight;
+    animation-duration: 2.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;--*/
+    }
+
+    .introblock {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 110vh;
+        background-image: url(pics/intro/IMG_5935_2.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .comic1 {
+        position: relative;
+        padding-top: 20vh;
+        padding-bottom: 0;
+        margin: 0 auto;
+        display: block;
+        max-width: 150vw;
+    }
+
+    .stickybacktotop {
+        z-index: 990;
+        position: sticky;
+        margin-top: 0;
+        padding-top: 60px;
+        left: 3vw;
+        width: 225px;
+        top: 3.5vh;
+
+    }
+
+    .bkground {
+        
+    }
+    
+
+    .logo {
+        position: absolute;
+    }
+    
+    .logo2 {
+        position: absolute;
+        left: 20vw;
+        padding-top: 5vh;
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+    
+    .logo2 img{
+        width: 100%;
+    }
+
+    .TOPMA4U {
+        position: absolute;
+    }
+
+    /*-----------introwordgroundcss---------*/
+    
+    .logotype{
+        top: 15vh;
+        left: 0;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+    
+    .logotype img{
+        width: 100%;
+    }
+
+    .icon_door img {
+        padding-bottom: 2vw;
+    }
+    
+    .icon_door {
+        margin-bottom: 2vh;
+    }
+
+    .col9pic img {
+        padding-right: 3vw;
+    }
+    
+    .homepagestuck{
+        z-index: 950;
+        position: absolute;
+        padding-top: 30vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .taikoicon img{
+        padding-top: 10vh;
+    }
+    
+    .sdvxicon img{
+        padding-top: 10vh;
+    }
+    
+    .doorphone{
+        padding-left: calc(var(--bs-gutter-x))!important;
+        padding-right: 0!important;
+    }
+    
+    .nextpageji h2{
+        text-align: end;
+    }
+    
+    .nextpageimg img{
+        width: 20vw!important;
+    }
+}
