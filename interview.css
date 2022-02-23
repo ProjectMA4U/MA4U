@@ -78,6 +78,13 @@
 
 /*-------end---------*/
 
+.row p a{
+    color: #F60067;
+    text-decoration: none;
+}
 
+.row p a:hover{
+    color: #ff8797;
+}
 
 

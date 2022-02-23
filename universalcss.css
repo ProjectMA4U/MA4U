@@ -143,6 +143,9 @@ p {
     .container p{
       background: none;
     }
+.row p{
+    background: none;
+}
 
 /*--------------loading----------------------------*/
 
